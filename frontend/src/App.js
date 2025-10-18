@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import Instructions from './components/Instructions';
 import Features from './components/Features';
 import Faq from './components/Faq';
+import Footer from './components/Footer';
 
 function App() {
   const [activeTab, setActiveTab] = useState('Video');
@@ -37,6 +39,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Hero
         activeTab={activeTab}
         setActiveTab={setActiveTab}
@@ -49,6 +52,7 @@ function App() {
       <Instructions />
       <Features />
       <Faq />
+      <Footer />
     </div>
   );
 }
