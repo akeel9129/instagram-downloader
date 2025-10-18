@@ -1,0 +1,83 @@
+.hero-container {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.downloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.downloader input {
+  flex-grow: 1;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.downloader button {
+  background-color: #fd1d1d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.downloader button:hover {
+  background-color: #c11717;
+}
+
+.download-section a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #fd1d1d;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-section a:hover {
+  background-color: #eee;
+}
+
+.error {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}

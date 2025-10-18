@@ -1,0 +1,36 @@
+.features-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  text-align: left;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-left: 5px solid #fd1d1d;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.feature h3 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.feature h3::before {
+  content: '✅';
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
